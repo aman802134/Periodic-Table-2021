@@ -1,95 +1,119 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    /* background: rgb(20,244,222); */
-/* background: linear-gradient(325deg, rgb(175 129 165) 16%, rgb(160 99 230) 100%); */
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  /* background: rgb(20,244,222); */
+  /* background: linear-gradient(325deg, rgb(175 129 165) 16%, rgb(160 99 230) 100%); */
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.r1 {
+  visibility: hidden;
+}
+.r2 {
+  visibility: hidden;
+}
+.r3 {
+  visibility: hidden;
+}
 
-}
-.row{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-}
-.r1{
-  visibility: hidden; 
-}
-.r2{
-visibility: hidden;
-}
-.r3{
-    visibility: hidden;
-}
-
-.element{
-    height: 3.5rem;
-    width: 3.5rem;
-    margin: 1px;
-    display: flex;
-    /* border: 2px solid green; */
-    border-radius: 10px;
-    outline: none;
-    box-shadow: -4px 10px 16px -1px rgb(250 151 252 / 57%);
-    -webkit-box-shadow: -4px 10px 16px -1px rgb(250, 151 ,252 / 16%);
-    -moz-box-shadow: -4px 10px 16px -1px rgba(250, 151, 252,0.57);
-    justify-content: center;
-    align-items: center;
-    background: #34ff19;
-
-    
+.box {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: 1px;
+  display: flex;
+  /* border: 2px solid green; */
+  border-radius: 10px;
+  outline: none;
+  box-shadow: -4px 10px 16px -1px rgb(250 151 252 / 57%);
+  -webkit-box-shadow: -4px 10px 16px -1px rgb(250, 151, 252 / 16%);
+  -moz-box-shadow: -4px 10px 16px -1px rgba(250, 151, 252, 0.57);
+  justify-content: center;
+  align-items: center;
+  background: #34ff19;
 }
 
 /* ========================row one elements================= */
-#elem-r1-1{
-    visibility: visible;
+#elem-r1-1 {
+  visibility: visible;
 }
 
-#elem-r1-18{
-    visibility: visible;
+#elem-r1-18 {
+  visibility: visible;
 }
 
 /* ========================*************================= */
 
 /* ========================row two elements================= */
-#elem-r2-1{
-    visibility: visible;
+#elem-r2-1 {
+  visibility: visible;
 }
-#elem-r2-2{
-    visibility: visible;
+#elem-r2-2 {
+  visibility: visible;
 }
 
-
-#elem-r2-13{visibility: visible;}
-#elem-r2-14{visibility: visible;}
-#elem-r2-15{visibility: visible;}
-#elem-r2-16{visibility: visible;}
-#elem-r2-17{visibility: visible;}
-#elem-r2-18{visibility: visible;}
+#elem-r2-13 {
+  visibility: visible;
+}
+#elem-r2-14 {
+  visibility: visible;
+}
+#elem-r2-15 {
+  visibility: visible;
+}
+#elem-r2-16 {
+  visibility: visible;
+}
+#elem-r2-17 {
+  visibility: visible;
+}
+#elem-r2-18 {
+  visibility: visible;
+}
 
 /* ========================*************================= */
 
 /* ========================row three elements================= */
-#elem-r3-1{visibility: visible;}
-#elem-r3-2{visibility: visible;}
-#elem-r3-13{visibility: visible;}
-#elem-r3-14{visibility: visible;}
-#elem-r3-15{visibility: visible;}
-#elem-r3-16{visibility: visible;}
-#elem-r3-17{visibility: visible;}
-#elem-r3-18{visibility: visible;}
+#elem-r3-1 {
+  visibility: visible;
+}
+#elem-r3-2 {
+  visibility: visible;
+}
+#elem-r3-13 {
+  visibility: visible;
+}
+#elem-r3-14 {
+  visibility: visible;
+}
+#elem-r3-15 {
+  visibility: visible;
+}
+#elem-r3-16 {
+  visibility: visible;
+}
+#elem-r3-17 {
+  visibility: visible;
+}
+#elem-r3-18 {
+  visibility: visible;
+}
 /* ========================*************================= */
 /* ========================row four elements================= */
 
@@ -104,15 +128,31 @@ visibility: hidden;
 
 /* ========================*************================= */
 /* ========================row eight elements================= */
-#elem-r8-1{visibility:hidden;}
-#elem-r8-2{visibility:hidden;}
-#elem-r8-3{visibility:hidden;}
-#elem-r8-18{visibility:hidden;}
+#elem-r8-1 {
+  visibility: hidden;
+}
+#elem-r8-2 {
+  visibility: hidden;
+}
+#elem-r8-3 {
+  visibility: hidden;
+}
+#elem-r8-18 {
+  visibility: hidden;
+}
 
 /* ========================*************================= */
 /* ========================row nine elements================= */
-#elem-r9-1{visibility:hidden;}
-#elem-r9-2{visibility:hidden;}
-#elem-r9-3{visibility:hidden;}
-#elem-r9-18{visibility:hidden;}
+#elem-r9-1 {
+  visibility: hidden;
+}
+#elem-r9-2 {
+  visibility: hidden;
+}
+#elem-r9-3 {
+  visibility: hidden;
+}
+#elem-r9-18 {
+  visibility: hidden;
+}
 /* ========================*************================= */
