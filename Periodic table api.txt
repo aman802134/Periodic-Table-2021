@@ -1,0 +1,7 @@
+https://periodic-table-elements-info.herokuapp.com/elements --all elements
+https://periodic-table-elements-info.herokuapp.com/elements/block/s --blockwise elements(s,p,d,f)
+https://periodic-table-elements-info.herokuapp.com/elements/state/gas --state wise(solid,liquid,gas,unknown)
+
+GETatomic name
+https://periodic-table-elements-info.herokuapp.com/element/atomicName/sodium
+this will fetch data of specific element by atomic name.
